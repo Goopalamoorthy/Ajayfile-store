@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"""<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/SMD_New_Robot>🏞 𝐒𝐌𝐃 𝐅𝐈𝐋𝐄𝐒 𝐒𝐓𝐎𝐑𝐄 🎇</a>
-😈 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/SMD_Owner>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
-👑 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🌿𝐌𝐚𝐤𝐞𝐫⚜️</a>
-✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/SMD_Owner>🛬 𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫🚦</a>
-♠ 𝐊𝐨𝐥𝐚𝐫𝐮 : <a href=https://t.me/SMD_Owner>🎭𝐒𝐫𝐞𝐞𝐫𝐚𝐚𝐦🔥</a>
-👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🦞𝐑𝐚𝐚𝐦🌿</a>
+            text = f"""<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Aj_file_storebot>🏞 𝐀𝐣 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 🎋</a>
+😈 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/ajayofficl>🍁𝐂𝐨𝐝𝐞𝐫🎎</a>
+👑 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/ajayofficl>🌿𝐌𝐚𝐤𝐞𝐫⚜️</a>
+✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/ajayofficl>🛬 𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫🚦</a>
+♠ 𝐊𝐨𝐥𝐚𝐫𝐮 : <a href=https://t.me/ajayofficl>🎭𝐒𝐫𝐞𝐞𝐫𝐚𝐚𝐦🔥</a>
+👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/ajayofficl>🦞𝐑𝐚𝐚𝐦🌿</a>
 ⚜️ 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐂𝐔🎋</a></b>""",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
